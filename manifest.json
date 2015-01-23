@@ -1,0 +1,13 @@
+﻿{
+    "manifest_version": 2,
+    "name": "TTK Games",
+    "version": "1",
+    "description": "",
+    "content_scripts":[
+        {
+		"matches":[ "*://bonus.myttk.ru/*"],
+            "js":["init.js"]			
+        }
+    ],
+	"permissions":[ "*://bonus.myttk.ru/*"]
+}
